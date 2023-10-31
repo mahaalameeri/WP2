@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <link rel="stylesheet" type="text/css" href="./assets/stylesheets/styles.css" />
+  <title>MADMEN PROPS</title>
+</head>
+
+<style>
+  .horizontal-nav {
+    background-color: rgba(24, 1, 1, 0.381);
+    text-align: right; /* align nav bar text to right */
+  }
+  </style> 
+
+<body>
+  <header class="page-6">
+    <a class="logo" href="pg1-home.html"></a>
+    <nav>
+      <div class="horizontal-nav">
+        <a href="pg1-home.html">HOME</a>
+        <a href="pg2-about.html">ABOUT</a>
+        <a href="pg3-team.html">TEAM</a>
+        <a href="pg4-clients.html">CLIENTS</a>
+        <a href="pg5-art.html">ART</a>
+        <a class="active-menu-item" href="pg6-props.html">PROPS</a>
+      </div>
+      <div class="dropdown">
+        <button class="dropbtn"><span class="fa fa-bars fa-x"></span></button>
+        <div class="dropdown-content">
+          <a href="pg1-home.html">HOME</a>
+          <a href="pg2-about.html">ABOUT</a>
+          <a href="pg3-team.html">TEAM</a>
+          <a href="pg4-clients.html">CLIENTS</a>
+          <a href="pg5-art.html">ART</a>
+          <a class="active-menu-item" href="#">PROPS</a>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <article>
+    <div>
+      <!-- TODO: add main content here -->
+      <br>
+      <br>
+      <h1>PROPS</h1>
+      <p>
+        The show about ad men and women in the 1960s is 
+        revered for its taut drama, a slow-burning 
+        meditation on life in a bygone era. One of the reasons 
+        it's so lauded is because creator Matthew Weiner pays a 
+        huge amount of attention to every little onscreen detail. 
+
+        Every inch of the series replicates the '60s as much as humanly possible. That means Weiner's team analyzes every little thing onscreen, 
+        Amy Wells, the brilliant set decorator for the iconic 
+        television series "Mad Men," played a pivotal role in 
+        bringing the show's 1960s-era world to life. With 
+        meticulous attention to detail and a keen eye for period 
+        authenticity, Wells transformed every set into a visual time capsule, 
+        transporting viewers back to the golden age of advertising. 
+        Her work not only recreated the look and feel of 
+        the era but also subtly reflected the evolving dynamics 
+        of the show's characters, infusing each space with character-driven nuance. 
+        From the sleek, mid-century modern offices of 
+        Sterling Cooper to the stylish homes of the characters, 
+        Amy Wells' set decoration added depth and authenticity to 
+        "Mad Men," making it a visual masterpiece that remains a 
+        benchmark in television history.
+       <p>
+
+    </div>
+  </article>
+
+<br>
+<br>
+
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Table Sortable</title>
+    <style>
+      /* Center the table container horizontally */
+      .table-container {
+        display: flex;
+        justify-content: center;
+      }
+  
+      table#your-table-items {
+        border-collapse: collapse;
+        /* in inspector mode - easier to see the difference between collapse and no collapse */
+        border: 1px solid rgba(154, 154, 154, 0.75);
+        text-align: center;
+      }
+  
+      table#your-table-items th:nth-child(1),
+      table#your-table-items td:nth-child(1) {
+        width: 20%
+      }
+  
+      table#your-table-items th:nth-child(2),
+      table#your-table-items td:nth-child(2) {
+        width: 35%;
+      }
+  
+      table#your-table-items th:nth-child(3),
+      table#your-table-items td:nth-child(3) {
+        width: 30%;
+      }
+  
+      table#your-table-items th:nth-child(4),
+      table#your-table-items td:nth-child(4) {
+        width: 20%
+      }
+  
+      table#your-table-items thead {
+        font-size: 12pt
+      }
+  
+      table#your-table-items thead th {
+        color: #fff;
+        background-color: rgba(0, 0, 0, 0.6);
+        padding: 8px;
+      }
+  
+      table#your-table-items thead th:hover {
+        color: #fff;
+        background-color: #210b0b;
+        cursor: pointer;
+      }
+  
+      table#your-table-items thead th.tablesorter-headerAsc,
+      table#your-table-items thead th.tablesorter-headerDesc {
+        background-color: rgb(150, 2, 2);
+      }
+  
+      table#your-table-items tbody {
+        font-size: 0.9em;
+        line-height: 15px;
+      }
+  
+      /*** make sure table#your-table-items tbody tr:nth-child(even) defined before table#your-table-items tbody tr:hover */
+      /*** otherwise, it would need to define table#your-table-items tbody tr:nth-child(even):hover*/
+      table#your-table-items tbody tr:nth-child(even) {
+        background: rgba(154, 154, 154, 0.25);
+      }
+  
+      table#your-table-items tbody tr:hover {
+        color: #000000;
+        background-color: rgba(162, 159, 159, 0.24);
+      }
+  
+      table#your-table-items tbody td {
+        padding: 8px 20px;
+        border-top: 1px solid rgba(154, 154, 154, 0.75);
+        border-right: 1px solid rgba(154, 154, 154, 0.75);
+      }
+  
+      table#your-table-items tbody td img {
+        width: 300px;
+        margin: 0 5px 0 0;
+        border: 1px solid rgba(154, 154, 154, 0.75);
+      }
+    </style>
+  </head>
+  
+  <body>
+    <article>
+      <div class="table-container">
+        <table id="your-table-items">
+          <thead>
+            <tr>
+              <th>The Item</th>
+              <th>Prop</th>
+              <th>Description</th>
+              <th>Episode</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Peggy Olsen's Email</td>
+              <td><img src="./assets/images/Table/table-7-peggymail.webp" alt="Don Drpaer's" /></td>
+              <td>''I'll take any old mail you'll wanna give me,'' says Wells. 
+                ''I'm desperate for it. Any old mail with old stamps on it 
+                is like, ooh la la. We want that bad.''</td>
+              <td>Season 3 Episode 2</td>
+            </tr>
+            <tr>
+              <td>The Draper's TV Remote</td>
+              <td><img src="./assets/images/Table/table-4-remote.webp" alt="TV Remote" /></td>
+              <td>Amy Wells was thrilled to spot this old Zenith TV remote in a Seattle store. 
+                ''They are so hard to find,'' she says. Although Harry is the head of the TV department, 
+                ''really, the remote is for anybody to use. It's one of the only ones I've got.'</td>
+              <td>Season 3 Episode 2</td>
+            </tr>
+            <tr>
+              <td>Betty Draper's Lipstick</td>
+              <td><img src="./assets/images/Table/table-5-lipstick.webp" alt="Cutting Board" /></td>
+              <td>''Especially if a woman was going out, a lot of lipstick holders had 
+                jewels on them,'' says Perello of this holder she picked up at an antique 
+                shop. ''You wish they weren't meant for one-time use, but a lot of them were.''</td>
+              <td>Season 1 Episode 2</td>
+            </tr>
+            <tr>
+              <td>The Draper's Coupons</td>
+              <td><img src="./assets/images/Table/table-10-old-coupons_l-b6f2bbe543154ba8ae153957b3372155.webp" alt="Season 2" /></td>
+              <td>All the coupons in the Draper home come directly from period magazines like Life, 
+                Good Housekeeping, TV Guide — ''whatever we can get our hands on,'' says Wells. 
+                ''Ah, Bosco. Do you remember Bosco? It was the alternative to Hershey's syrup.''</td>
+              <td>Medium</td>
+            </tr>
+            <tr>
+              <td>Betty Draper's Nailpolish Stand</td>
+              <td><img src="./assets/images/Table/table-6-vanityholders.webp" alt="Nailpolish Stand" /></td>
+              <td>Perello found this stand as part of a set that also came with, no joke, 
+                a special hairspray holder. ''I love, love, love that set,'' she laughs. 
+                ''It just seems like so elaboration just to hold your hairspray. It's dressed on 
+                Betty's vanity. We wouldn't give that just to anybody.''</td>
+              <td>Season 2</td>
+            </tr>
+            <tr>
+              <td>Hershey's Campaign Packet</td>
+              <td><img src="./assets/images/Table/table-13-hersheyspitch.webp" alt="Hershey's Campaign Packet" /></td>
+              <td>Want some insight into the Hershey empire? 
+                Don Draper, the resident creative genius at Sterling Cooper & Partners suffered a genuine crisis at the most unlikely time 
+                -- during a business meeting.
+                At first, Don dazzles visiting Hershey executives with a heartwarming pitch that 
+                linked his own loving childhood to a Hershey’s chocolate bar. 
+                Of course, it’s a lie -- and the home audience immediately knows it. 
+                Then, Don makes sure the Hershey executives know it.
+                This design prop sold for $1,400 at auction.
+              </td>
+              <td>Season 6 Episode 13 
+                <br>
+               In Care Of.
+              </td>
+            </tr>
+            <tr>
+              <td>Draper Breakfast Table</td>
+              <td><img src="./assets/images/Table/table-11-cottage-cheese.webp" alt="Cottage Cheese" /></td>
+              <td> ''We probably have 20 cottage cheese containers,'' laughs Perello. ''I come across cottage cheese containers like you wouldn't believe.'' Thankfully, they're empty of any vintage cheese.</td>
+              <td>Season 1 Episode 4</td>
+            </tr>
+            <tr>
+              <td>Nailpolish Remover</td>
+              <td><img src="./assets/images/Table/table-12-nailpolich-remover.webp" alt="Nailpolish Remover" /></td>
+              <td>''When I was researching, I kept seeing the same nail-polish remover over and over 
+                with that distinct top and squatty bottle,'' says Perello. 
+                ''To find, in mint condition, three bottles — it was a joyous day.''</td>
+              <td>Season 1 Episode 2</td>
+            </tr>
+            <tr>
+              <td>Sterling Cooper Office Supplies</td>
+              <td><img src="./assets/images/Table/table-8-typeeraser.webp" alt="Typeeraser" /></td>
+              <td>''We get as much [vintage] office stuff as we possibly can get our 
+                hands on,'' says Wells, ''because of the amount of desks that we 
+                have to dress. Those erasers are what we call dead stock. 
+                They're real vintage, but they've never been used.''</td>
+              <td>Season 3 Episode 4</td>
+            </tr>
+            <tr>
+              <td>Don Draper's Typewriter</td>
+              <td><img src="./assets/images/Table/table-2-typewriter.jpg" alt="Typewriter" /></td>
+              <td>In the first half of season seven, you could spot this (working) Smith-Corona Coronet Automatic 12 electric typewriter at the home office of Don Draper.
+
+                Sold at auction for $9,000.</td>
+              <td>Season 7 </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </article>
+    <!-- jquery.min.js should be loaded before jquery.tablesorter.min.js because tablesorter requires basic jQuery -->
+    <script type="text/JavaScript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script type="text/JavaScript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery.tablesorter/2.31.3/js/jquery.tablesorter.min.js"></script>
+    <!-- BEG JavaScript -->
+    <script>
+      $(document).ready(function () {
+        $("table#your-table-items").tablesorter({
+          sortList: [[2, 1]],
+          CssAsc: "tablesorter-headerAsc",
+          CssDesc: "tablesorter-headerDesc"
+        });
+      });
+    </script>
+    <!-- END JavaScript -->
+  </body>
+  
+  </html>
+  
+  <section style="padding: 30px">
+    <!-- TODO: add sidebar content here -->
+  </section>
+  <div class="to-top"><a href="#">Top</a></div>
+  
+  <style>
+    .footer-content {
+      width: 100%;
+      background-color: rgb(150, 2, 2);
+    }
+   </style>
+  
+    <footer class="footer-content">
+      <div class="social-icon">
+        <!-- Facebook -->
+        <a href="https://www.facebook.com/MadMen/" target="_blank" class="fa fa-facebook-f fa-lg padding-right" style="color: #ffffff;"></a>
+        <!--Instagram-->
+        <a href="https://www.instagram.com/madmen_amc/?hl=en" target="_blank" class="fa fa-instagram fa-lg gpadding-right" style="color: #ffffff;"></a>
+        <!-- Pinterest -->
+        <a href="https://www.pinterest.com/arrobins70/mad-men/" target="_blank" class="fa fa-pinterest fa-lg padding-right" style="color: #ffffff;"></a>
+        
+      </div>
+    </footer>
+</body>
+
+</html>
