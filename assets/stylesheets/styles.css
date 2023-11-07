@@ -124,7 +124,7 @@ header a.logo:hover {
   text-decoration: none;
   display: block;
   text-align: center;
-  font-family: 'Courier New', Courier, monospace /* font in dropdown menu when browser is minimized */
+  font-family: 'Courier New', Courier, monospace; /* font in dropdown menu when browser is minimized */
   line-height: normal; /* do this override/cascade the line-height set in carousel plugin */
 }
 
