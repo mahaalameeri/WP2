@@ -12,7 +12,14 @@
 .horizontal-nav {
   background-color: rgba(24, 1, 1, 0.381);
   text-align: right; /* align nav bar text to right */
+  font-family: Arial, Helvetica, sans-serif;
+
   
+}
+
+h3{
+     font-size: 25pt;
+     margin-left: 510pt;
 }
 </style>
 
@@ -21,7 +28,7 @@
     <a class="logo" href="index.html"></a>
     <nav>
       <div class="horizontal-nav">
-        <a href="pg1-home.html">HOME</a>
+        <a href="index.html">HOME</a>
         <a href="pg2-about.html">ABOUT</a>
         <a class="active-menu-item" href="pg3-team.html">TEAM</a>
         <a href="pg4-clients.html">CLIENTS</a>
@@ -31,7 +38,7 @@
       <div class="dropdown">
         <button class="dropbtn"><span class="fa fa-bars fa-x"></span></button>
         <div class="dropdown-content">
-          <a href="pg1-home.html">HOME</a>
+          <a href="index.html">HOME</a>
           <a href="pg2-about.html">ABOUT</a>
           <a class="active-menu-item" href="#">TEAM</a>
           <a href="pg4-clients.html">CLIENTS</a>
@@ -49,7 +56,7 @@
       <br>
       <br>
       
-      <h1>TEAM</h1>
+      <h1>THE TEAM</h1> 
       <p> 
         While giving viewers a taste of what business is 
         like from every corner of the office, Mad Men focuses 
@@ -112,13 +119,13 @@
     
     /* On hover, add a black background color with a little bit see-through */
     .prev:hover, .next:hover {
-      background-color: rgba(255, 255, 255, 0.8);
+      background-color: rgb(18, 17, 17);
     }
     
     /* Caption text */
     .text {
       color: #9e0808;
-      font-size: 15px;
+      font-size: 25px;
       padding: 8px 12px;
       position: absolute;
       bottom: 8px;
@@ -193,7 +200,7 @@
     <div class="mySlides fade">
       <div class="numbertext">4 / 5</div>
       <img src="assets/images/Team/Team-Profile-Joan.webp" style="width:100%">
-      <div class="text">Joan</div>
+      <div class="text">Joan Holloway</div>
     </div>
 
     <div class="mySlides fade">
@@ -250,7 +257,7 @@
   <style>
     .accordion {
       background-color: #e8dede;
-      color: #715353;
+      color: #312323;
       cursor: pointer;
       padding: 18px;
       width: 100%;
@@ -260,6 +267,10 @@
       font-size: 15px;
       transition: 0.4s;
       font-family: 'Courier New', Courier, monospace;
+    }
+
+    h3{
+      font-size: 30pt;
     }
     
     .active, .accordion:hover {
@@ -276,9 +287,8 @@
     </style>
     </head>
     <body>
-      div class="list">
   
-  <h3>Team Members</h3> 
+    <h3>Team Members </h3>   
   
   <div style="padding-left: 20pt;">
 
@@ -376,7 +386,15 @@
       <p>Frank O’Hara’s Meditations in an Emergency
       </p>
     </div>
-    what other shows did writer Max Weiner work on?</button>
+
+    <button class="accordion">Who wrote Mad Men?</button>
+    <div class="panel">
+      <p>
+        Matthew Weiner dreamed up the idea for Mad Men while working 
+        as a writer on the Ted Danson sitcom Becker. 
+        He wrote the pilot in 1999.
+      </p>
+    <button class="accordion">what other shows did writer Max Weiner work on?</button>
     <div class="panel">
       <p>In 2002, Weiner sent the Mad Men pilot to David Chase, 
         creator of The Sopranos, as a writing sample. In 2012, 
@@ -418,18 +436,10 @@
         the agency's merger with Puttnam, Powell, and Lowe (PPL). He plays a 
         significant part in navigating this complex merger.
       </p>
-
-      <button class="accordion">Who wrote Mad Men?</button>
-    <div class="panel">
-      <p>
-        Matthew Weiner dreamed up the idea for Mad Men while working 
-        as a writer on the Ted Danson sitcom Becker. 
-        He wrote the pilot in 1999.
-      </p>
-
-
       </div>
-    
+      <br>
+      <br>
+      <br>
     <script>
     var acc = document.getElementsByClassName("accordion");
     var i;
